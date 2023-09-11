@@ -9,13 +9,7 @@ const peticionEpisode = fetch(`https://rickandmortyapi.com/api/episode/${episode
 
 //Peticion para character
 peticionCharacter.then(resp => resp.json())
-.then( ( {results} ) =>{
-    // console.log(results)
-    // const reformattedArray = results.map(({ name, gender }) => {return '<table><tr><td>'+name+'</td><td>'+gender+'</td></tr></table>'})
-    // console.log(reformattedArray)
-    // let caja = document.createElement('p')
-    // caja.innerHTML(reformattedArray)
-    // document.body.append(caja)
+.then( ( {results} ) =>{   
     let title = document.createElement("h1");
     let dates = document.createElement("p");
     const url = results[0].image
@@ -33,7 +27,6 @@ peticionCharacter.then(resp => resp.json())
 
 peticionLocation.then(response => response.json())
 .then(data =>{
-console.log(data)
 let titleLocation = document.createElement("h1")
 let datesLocation = document.createElement("p")
 titleLocation.innerHTML=`Ejemplo del servicio location ${episode}`
@@ -46,7 +39,6 @@ document.body.append(titleLocation, datesLocation)
 
 peticionEpisode.then(response => response.json())
 .then(data =>{
-console.log(data)
 let titleEpisode = document.createElement("h1")
 let datesEpisode = document.createElement("p")
 titleEpisode.innerHTML=`Ejemplo del servicio Episode ${singlePeticion}`
