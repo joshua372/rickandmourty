@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/rickandmourty/static/css/main.073c9b0a.css",
-    "main.js": "/rickandmourty/static/js/main.77308ead.js",
-    "static/js/787.afd92b81.chunk.js": "/rickandmourty/static/js/787.afd92b81.chunk.js",
-    "static/media/logo.svg": "/rickandmourty/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/rickandmourty/static/js/main.16cd6b93.js",
     "index.html": "/rickandmourty/index.html",
-    "main.073c9b0a.css.map": "/rickandmourty/static/css/main.073c9b0a.css.map",
-    "main.77308ead.js.map": "/rickandmourty/static/js/main.77308ead.js.map",
-    "787.afd92b81.chunk.js.map": "/rickandmourty/static/js/787.afd92b81.chunk.js.map"
+    "main.16cd6b93.js.map": "/rickandmourty/static/js/main.16cd6b93.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.77308ead.js"
+    "static/js/main.16cd6b93.js"
   ]
 }
